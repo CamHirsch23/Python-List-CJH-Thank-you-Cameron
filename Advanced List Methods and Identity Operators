@@ -1,0 +1,12 @@
+# Question 2 
+# Task 1 
+
+submitted = ["Alice", "Bob", "Charlie", "David"]
+attended = ["Charlie", "Eve", "Alice", "Frank"]
+
+if "Alice" in submitted and "Alice" in attended:
+    print("Alice submitted her assignment and attended class")
+else:
+    print("Alice did not submit her assignment or did not attend class")
+
+Alice submitted her assignment and attended class
